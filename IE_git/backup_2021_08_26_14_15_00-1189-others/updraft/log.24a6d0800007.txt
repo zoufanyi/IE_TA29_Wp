@@ -1,0 +1,352 @@
+0000.000 (0) Opened log file at time: Tue, 24 Aug 2021 00:27:16 +0000 on https://quitsmoking.click
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.60 WP: 5.8 PHP: 7.4.22 (fpm-fcgi, Linux ip-172-31-42-7 4.19.0-17-cloud-amd64 #1 SMP Debian 4.19.194-3 (2021-07-18) x86_64) MySQL: 10.3.31-MariaDB (max packet size=16777216) WPLANG: en_US Server: Apache/2.4.48 (Unix) OpenSSL/1.1.1d safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 5.3M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 6496.2 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.007 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1629719918, seconds_ago=44918)
+0000.015 (0) Set semaphore last lock (fd) time to 2021-08-24 00:27:16
+0000.015 (0) Semaphore lock (fd) complete
+0000.022 (0) Backup run: resumption=0, nonce=24a6d0800007, file_nonce=24a6d0800007 begun at=1629764836 (0s ago), job type=backup
+0000.025 (0) Scheduling a resumption (1) after 300 seconds (1629765136) in case this run gets aborted
+0000.029 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.041 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.044 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.063 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.071 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.076 (0) Working binary zip found: /usr/bin/zip
+0000.080 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.081 (0) Creation of backups of directories: beginning
+0000.088 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.942 (0) Total entities for the zip file: 4228 directories, 13936 files (0 skipped as non-modified), 176.2 MB
+0001.946 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.949 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.952 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.954 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.957 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.960 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.963 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.966 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.968 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.969 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.971 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 13936 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.848 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: size is now: 3.40 MB
+0002.852 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1100 files added (on-disk size: 3461.3 KB)
+0002.855 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1200 files added (on-disk size: 3461.3 KB)
+0002.858 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1300 files added (on-disk size: 3461.3 KB)
+0002.861 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1400 files added (on-disk size: 3461.3 KB)
+0002.864 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1500 files added (on-disk size: 3461.3 KB)
+0002.866 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1600 files added (on-disk size: 3461.3 KB)
+0002.869 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1700 files added (on-disk size: 3461.3 KB)
+0002.872 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1800 files added (on-disk size: 3461.3 KB)
+0002.874 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 1900 files added (on-disk size: 3461.3 KB)
+0002.877 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2000 files added (on-disk size: 3461.3 KB)
+0002.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 13936 files batched, 1001 (2002) added so far); re-opening (prior size: 3461.3 KB)
+0004.209 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: size is now: 12.50 MB
+0004.215 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2100 files added (on-disk size: 12807.3 KB)
+0004.217 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2200 files added (on-disk size: 12807.3 KB)
+0004.221 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2300 files added (on-disk size: 12807.3 KB)
+0004.224 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2400 files added (on-disk size: 12807.3 KB)
+0004.226 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2500 files added (on-disk size: 12807.3 KB)
+0004.229 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2600 files added (on-disk size: 12807.3 KB)
+0004.232 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2700 files added (on-disk size: 12807.3 KB)
+0004.235 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2800 files added (on-disk size: 12807.3 KB)
+0004.238 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 2900 files added (on-disk size: 12807.3 KB)
+0004.241 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3000 files added (on-disk size: 12807.3 KB)
+0004.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 13936 files batched, 1001 (3003) added so far); re-opening (prior size: 12807.3 KB)
+0005.056 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3100 files added (on-disk size: 14401.2 KB)
+0005.060 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3200 files added (on-disk size: 14401.2 KB)
+0005.062 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3300 files added (on-disk size: 14401.2 KB)
+0005.065 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3400 files added (on-disk size: 14401.2 KB)
+0005.068 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3500 files added (on-disk size: 14401.2 KB)
+0005.070 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3600 files added (on-disk size: 14401.2 KB)
+0005.073 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3700 files added (on-disk size: 14401.2 KB)
+0005.076 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3800 files added (on-disk size: 14401.2 KB)
+0005.078 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 3900 files added (on-disk size: 14401.2 KB)
+0005.081 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4000 files added (on-disk size: 14401.2 KB)
+0005.083 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 13936 files batched, 1001 (4004) added so far); re-opening (prior size: 14401.2 KB)
+0006.093 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4100 files added (on-disk size: 16562.4 KB)
+0006.096 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4200 files added (on-disk size: 16562.4 KB)
+0006.098 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4300 files added (on-disk size: 16562.4 KB)
+0006.101 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4400 files added (on-disk size: 16562.4 KB)
+0006.104 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4500 files added (on-disk size: 16562.4 KB)
+0006.106 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4600 files added (on-disk size: 16562.4 KB)
+0006.109 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4700 files added (on-disk size: 16562.4 KB)
+0006.112 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4800 files added (on-disk size: 16562.4 KB)
+0006.114 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 4900 files added (on-disk size: 16562.4 KB)
+0006.117 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5000 files added (on-disk size: 16562.4 KB)
+0006.119 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 13936 files batched, 1001 (5005) added so far); re-opening (prior size: 16562.4 KB)
+0006.755 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5100 files added (on-disk size: 17379.6 KB)
+0006.758 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5200 files added (on-disk size: 17379.6 KB)
+0006.761 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5300 files added (on-disk size: 17379.6 KB)
+0006.764 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5400 files added (on-disk size: 17379.6 KB)
+0006.766 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5500 files added (on-disk size: 17379.6 KB)
+0006.769 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5600 files added (on-disk size: 17379.6 KB)
+0006.772 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5700 files added (on-disk size: 17379.6 KB)
+0006.774 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5800 files added (on-disk size: 17379.6 KB)
+0006.777 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 5900 files added (on-disk size: 17379.6 KB)
+0006.780 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6000 files added (on-disk size: 17379.6 KB)
+0006.781 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 13936 files batched, 1001 (6006) added so far); re-opening (prior size: 17379.6 KB)
+0007.552 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6100 files added (on-disk size: 19796.2 KB)
+0007.554 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6200 files added (on-disk size: 19796.2 KB)
+0007.557 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6300 files added (on-disk size: 19796.2 KB)
+0007.560 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6400 files added (on-disk size: 19796.2 KB)
+0007.562 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6500 files added (on-disk size: 19796.2 KB)
+0007.565 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6600 files added (on-disk size: 19796.2 KB)
+0007.568 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6700 files added (on-disk size: 19796.2 KB)
+0007.570 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6800 files added (on-disk size: 19796.2 KB)
+0007.573 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 6900 files added (on-disk size: 19796.2 KB)
+0007.576 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7000 files added (on-disk size: 19796.2 KB)
+0007.577 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.5 MB, 13936 files batched, 1001 (7007) added so far); re-opening (prior size: 19796.2 KB)
+0008.379 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7100 files added (on-disk size: 21487.6 KB)
+0008.383 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7200 files added (on-disk size: 21487.6 KB)
+0008.386 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7300 files added (on-disk size: 21487.6 KB)
+0008.389 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7400 files added (on-disk size: 21487.6 KB)
+0008.392 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7500 files added (on-disk size: 21487.6 KB)
+0008.394 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7600 files added (on-disk size: 21487.6 KB)
+0008.397 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7700 files added (on-disk size: 21487.6 KB)
+0008.400 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7800 files added (on-disk size: 21487.6 KB)
+0008.402 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 7900 files added (on-disk size: 21487.6 KB)
+0008.406 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8000 files added (on-disk size: 21487.6 KB)
+0008.407 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 13936 files batched, 1001 (8008) added so far); re-opening (prior size: 21487.6 KB)
+0009.332 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8100 files added (on-disk size: 23460.1 KB)
+0009.335 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8200 files added (on-disk size: 23460.1 KB)
+0009.338 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8300 files added (on-disk size: 23460.1 KB)
+0009.340 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8400 files added (on-disk size: 23460.1 KB)
+0009.342 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8500 files added (on-disk size: 23460.1 KB)
+0009.345 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 13936 files batched, 554 (8562) added so far); re-opening (prior size: 23460.1 KB)
+0010.817 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: size is now: 31.30 MB
+0010.822 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 10631.3 KB/s)
+0010.825 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.4091188907623, normalised_time=2.4079832593142, max_time=10.823981046677, data points known=1, old_max_bytes=26214400, new_max_bytes=70700865)
+0010.830 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8600 files added (on-disk size: 32045.5 KB)
+0010.833 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8700 files added (on-disk size: 32045.5 KB)
+0010.836 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8800 files added (on-disk size: 32045.5 KB)
+0010.838 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 8900 files added (on-disk size: 32045.5 KB)
+0010.841 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9000 files added (on-disk size: 32045.5 KB)
+0010.844 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9100 files added (on-disk size: 32045.5 KB)
+0010.846 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9200 files added (on-disk size: 32045.5 KB)
+0010.849 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9300 files added (on-disk size: 32045.5 KB)
+0010.852 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9400 files added (on-disk size: 32045.5 KB)
+0010.854 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9500 files added (on-disk size: 32045.5 KB)
+0010.856 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.7 MB, 13936 files batched, 1001 (9563) added so far); re-opening (prior size: 32045.5 KB)
+0011.730 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9600 files added (on-disk size: 34372.3 KB)
+0011.733 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9700 files added (on-disk size: 34372.3 KB)
+0011.736 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9800 files added (on-disk size: 34372.3 KB)
+0011.740 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 9900 files added (on-disk size: 34372.3 KB)
+0011.742 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10000 files added (on-disk size: 34372.3 KB)
+0011.745 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10100 files added (on-disk size: 34372.3 KB)
+0011.748 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10200 files added (on-disk size: 34372.3 KB)
+0011.750 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10300 files added (on-disk size: 34372.3 KB)
+0011.753 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10400 files added (on-disk size: 34372.3 KB)
+0011.756 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10500 files added (on-disk size: 34372.3 KB)
+0011.757 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 13936 files batched, 1001 (10564) added so far); re-opening (prior size: 34372.3 KB)
+0012.893 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10600 files added (on-disk size: 39591.4 KB)
+0012.896 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10700 files added (on-disk size: 39591.4 KB)
+0012.898 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10800 files added (on-disk size: 39591.4 KB)
+0012.902 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 10900 files added (on-disk size: 39591.4 KB)
+0012.905 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11000 files added (on-disk size: 39591.4 KB)
+0012.908 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11100 files added (on-disk size: 39591.4 KB)
+0012.913 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11200 files added (on-disk size: 39591.4 KB)
+0012.918 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11300 files added (on-disk size: 39591.4 KB)
+0012.921 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11400 files added (on-disk size: 39591.4 KB)
+0012.924 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11500 files added (on-disk size: 39591.4 KB)
+0012.925 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27.6 MB, 13936 files batched, 1001 (11565) added so far); re-opening (prior size: 39591.4 KB)
+0014.836 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: size is now: 46.60 MB
+0014.843 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11600 files added (on-disk size: 47688 KB)
+0014.846 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11700 files added (on-disk size: 47688 KB)
+0014.850 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11800 files added (on-disk size: 47688 KB)
+0014.853 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 11900 files added (on-disk size: 47688 KB)
+0014.856 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12000 files added (on-disk size: 47688 KB)
+0014.858 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12100 files added (on-disk size: 47688 KB)
+0014.861 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12200 files added (on-disk size: 47688 KB)
+0014.864 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12300 files added (on-disk size: 47688 KB)
+0014.866 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12400 files added (on-disk size: 47688 KB)
+0014.870 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12500 files added (on-disk size: 47688 KB)
+0014.873 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.2 MB, 13936 files batched, 1001 (12566) added so far); re-opening (prior size: 47688 KB)
+0015.653 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12600 files added (on-disk size: 48888.7 KB)
+0015.656 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12700 files added (on-disk size: 48888.7 KB)
+0015.658 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12800 files added (on-disk size: 48888.7 KB)
+0015.661 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 12900 files added (on-disk size: 48888.7 KB)
+0015.664 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13000 files added (on-disk size: 48888.7 KB)
+0015.666 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13100 files added (on-disk size: 48888.7 KB)
+0015.669 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13200 files added (on-disk size: 48888.7 KB)
+0015.672 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13300 files added (on-disk size: 48888.7 KB)
+0015.674 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13400 files added (on-disk size: 48888.7 KB)
+0015.677 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13500 files added (on-disk size: 48888.7 KB)
+0015.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7 MB, 13936 files batched, 1001 (13567) added so far); re-opening (prior size: 48888.7 KB)
+0016.615 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13600 files added (on-disk size: 51243.3 KB)
+0016.630 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13700 files added (on-disk size: 51243.3 KB)
+0016.634 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13800 files added (on-disk size: 51243.3 KB)
+0016.637 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip.tmp: 13900 files added (on-disk size: 51243.3 KB)
+0017.739 (0) Created plugins zip (0) - 52143.6 KB in 17.6 s (2954.3 KB/s) (sha1: 91fe09d513bde2012ef937f94882de27980cf2e9, sha256: 739b93c5103fa075e80dbc5ae2dd75fe006e8752b58c4542f4feb08a98bc2f53)
+0017.742 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.756 (0) Total entities for the zip file: 139 directories, 510 files (0 skipped as non-modified), 11 MB
+0017.759 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.762 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.765 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.768 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.770 (0) Zip: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.262 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip.tmp: size is now: 7.30 MB
+0018.356 (0) Created themes zip (0) - 7432.8 KB in 0.6 s (12167.1 KB/s) (sha1: afe8d758d9709fc7b1c5642e0b7a0e42ec4c3827, sha256: ef9350323eeb2114f403f74ab0605a04062bb6ad8d99d084ae6f2f4dd104537e)
+0018.359 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.360 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content/uploads
+0018.361 (0) finding files: 2021: adding to list (1)
+0018.363 (0) finding files: elementor: adding to list (2)
+0018.364 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.371 (0) Total entities for the zip file: 5 directories, 81 files (0 skipped as non-modified), 9.2 MB
+0018.498 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip.tmp: size is now: 9.20 MB
+0018.622 (0) Created uploads zip (0) - 9434.2 KB in 0.3 s (36782.9 KB/s) (sha1: f6c525acbaa2c635a7db147f21a94ee710239502, sha256: 4cf62cc5514eeed695df74b867ffbccec951b0dca6d92243eb87c9df31007e59)
+0018.627 (0) Beginning backup of other directories found in the content directory (index: 0)
+0018.628 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0018.628 (0) Looking for candidates to backup in: /opt/bitnami/wordpress/wp-content
+0018.629 (0) finding files: themes: skipping: this is the themes directory
+0018.631 (0) finding files: uploads: skipping: this is the uploads directory
+0018.632 (0) finding files: languages: adding to list (1)
+0018.633 (0) finding files: index.php: adding to list (2)
+0018.635 (0) finding files: updraft: skipping: this is the updraft directory
+0018.636 (0) finding files: plugins: skipping: this is the plugins directory
+0018.638 (0) finding files: upgrade: skipping: excluded by options
+0018.643 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0018.651 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip.tmp: size is now: 0.00 MB
+0018.660 (0) Created others zip (0) - 0.3 KB in 0 s (16.9 KB/s) (sha1: 4e6d47f46f5d781eb1dd40438a25fd116fefc392, sha256: 63aa896e681a75a7332aceb1dca5774df9633c82f71f2ee833fa2e41950d2bad)
+0018.669 (0) Saving backup status to database (elements: 8)
+0018.674 (0) Beginning creation of database dump (WordPress DB)
+0018.677 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0018.690 (0) Table wp_options: Total expected rows (approximate): 341
+0018.775 (0) Table wp_options: Rows added in this batch (next record: 1052): 338 (uncompressed bytes in this segment=1644566) in 0.08 seconds
+0018.785 (0) Table wp_options: finishing file(s) (2, 319.1 KB)
+0018.790 (0) Table wp_users: Total expected rows (approximate): 1
+0018.793 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1334) in 0.00 seconds
+0018.802 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0018.805 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0018.812 (0) Table wp_usermeta: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=3131) in 0.01 seconds
+0018.822 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0018.826 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0018.832 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0018.840 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0018.845 (0) Table wp_comments: Total expected rows (approximate): 1
+0018.848 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2093) in 0.00 seconds
+0018.855 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0018.859 (0) Table wp_links: Total expected rows (approximate): 0
+0018.862 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0018.869 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0018.873 (0) Table wp_postmeta: Total expected rows (approximate): 2018
+0018.934 (0) Table wp_postmeta: Rows added in this batch (next record: 2302): 2041 (uncompressed bytes in this segment=2610332) in 0.06 seconds
+0018.943 (0) Table wp_postmeta: finishing file(s) (2, 54.9 KB)
+0018.947 (0) Table wp_posts: Total expected rows (approximate): 266
+0018.965 (0) Table wp_posts: Rows added in this batch (next record: 282): 266 (uncompressed bytes in this segment=242318) in 0.02 seconds
+0018.975 (0) Table wp_posts: finishing file(s) (2, 15.8 KB)
+0018.979 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0018.983 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=758) in 0.00 seconds
+0018.989 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0018.994 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0019.001 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=939) in 0.01 seconds
+0019.011 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0019.017 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0019.025 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0019.033 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0019.038 (0) Table wp_terms: Total expected rows (approximate): 2
+0019.043 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=757) in 0.00 seconds
+0019.050 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0019.052 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_options.table.tmpr1053.gz (1/12/fopen): adding to final database dump
+0019.056 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0019.059 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0019.061 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0019.063 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_usermeta.table.tmpr22.gz (5/12/fopen): adding to final database dump
+0019.064 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0019.065 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0019.067 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0019.068 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0019.069 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0019.071 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0019.072 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0019.073 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_postmeta.table.tmpr2303.gz (13/12/fopen): adding to final database dump
+0019.075 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0019.076 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_posts.table.tmpr283.gz (15/12/fopen): adding to final database dump
+0019.077 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0019.080 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0019.082 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0019.084 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0019.085 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0019.087 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0019.088 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0019.089 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0019.091 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0019.098 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz: finished writing out complete database file (395.5 KB)
+0019.125 (0) Total database tables backed up: 12 (backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz, size: 405134, sha1: b4b4efba09de292f4aaaa24c8d16dc6f6ac20d33, sha256: 5d8ec571bd7e290a23176c622ba329d5418449355cb29f85257daf43e0a24493)
+0019.135 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.136 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.137 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.139 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.141 (0) backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.144 (0) Saving backup history. Total backup size: 67.8 MB
+0019.147 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.154 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.158 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e279324174c08d312403a4bed32d7d22)
+0021.093 (0) Google Drive: creating path: /UpdraftPlus
+0022.357 (0) Google Drive: quota usage: used=567.2 MB, total=10486327.2 MB, available=10485760 MB
+0022.360 (0) Google Drive: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip: Attempting to upload to Google Drive (into folder id: 1W3lWWXiJIHNClQMSpK3li74jHNxgEREn)
+0023.003 (0) Googledrive chunked upload: 2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.2 / 12)
+0023.423 (0) Googledrive chunked upload: 5.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 6.2 / 12)
+0023.813 (0) Googledrive chunked upload: 13.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 6.2 / 12)
+0024.379 (0) Googledrive chunked upload: 29.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 6.2 / 12)
+0025.270 (0) Googledrive chunked upload: 60.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 6.2 / 12)
+0027.696 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0027.701 (0) Google Drive: OK: Archive backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip uploaded in 5.34 seconds
+0027.703 (0) Recording as successfully uploaded: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip
+0027.712 (0) Deleting local file: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-plugins.zip: OK
+0028.048 (0) Google Drive: quota usage: used=618.1 MB, total=10486378.1 MB, available=10485760 MB
+0028.050 (0) Google Drive: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip: Attempting to upload to Google Drive (into folder id: 1W3lWWXiJIHNClQMSpK3li74jHNxgEREn)
+0028.666 (0) Googledrive chunked upload: 13.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.2 / 12)
+0029.045 (0) Googledrive chunked upload: 41.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 6.2 / 12)
+0029.586 (0) Googledrive chunked upload: 96.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 6.2 / 12)
+0030.717 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0030.723 (0) Google Drive: OK: Archive backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip uploaded in 2.67 seconds
+0030.724 (0) Recording as successfully uploaded: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip
+0030.729 (0) Deleting local file: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-themes.zip: OK
+0031.020 (0) Google Drive: quota usage: used=625.3 MB, total=10486385.3 MB, available=10485760 MB
+0031.022 (0) Google Drive: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip: Attempting to upload to Google Drive (into folder id: 1W3lWWXiJIHNClQMSpK3li74jHNxgEREn)
+0031.667 (0) Googledrive chunked upload: 10.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 6.2 / 12)
+0032.054 (0) Googledrive chunked upload: 32.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 6.2 / 12)
+0032.531 (0) Googledrive chunked upload: 76 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 6.2 / 12)
+0033.648 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0033.654 (0) Google Drive: OK: Archive backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip uploaded in 2.63 seconds
+0033.656 (0) Recording as successfully uploaded: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip
+0033.662 (0) Deleting local file: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-uploads.zip: OK
+0033.937 (0) Google Drive: quota usage: used=634.6 MB, total=10486394.6 MB, available=10485760 MB
+0033.940 (0) Google Drive: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip: Attempting to upload to Google Drive (into folder id: 1W3lWWXiJIHNClQMSpK3li74jHNxgEREn)
+0035.142 (0) Googledrive chunked upload: 100 % uploaded
+0035.149 (0) Google Drive: OK: Archive backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip uploaded in 1.21 seconds
+0035.151 (0) Recording as successfully uploaded: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip
+0035.154 (0) Deleting local file: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-others.zip: OK
+0035.413 (0) Google Drive: quota usage: used=634.6 MB, total=10486394.6 MB, available=10485760 MB
+0035.416 (0) Google Drive: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz: Attempting to upload to Google Drive (into folder id: 1W3lWWXiJIHNClQMSpK3li74jHNxgEREn)
+0036.616 (0) Googledrive chunked upload: 100 % uploaded
+0036.621 (0) Google Drive: OK: Archive backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz uploaded in 1.2 seconds
+0036.623 (0) Recording as successfully uploaded: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz
+0036.627 (0) Deleting local file: backup_2021-08-24-0027_Quit_Smoking_24a6d0800007-db.gz: OK
+0036.634 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0036.636 (0) Number of backup sets in history: 2; groups (db): 1
+0036.637 (0) Examining (for databases) backup set with group_id=0, nonce=24a6d0800007, datestamp=1629764836 (Aug 24 2021 00:27:16)
+0036.639 (0) This backup set is the backup set just made, so will not be deleted.
+0036.639 (0) Examining (for databases) backup set with group_id=0, nonce=33f7a8d51510, datestamp=1629719918 (Aug 23 2021 11:58:38)
+0036.639 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.640 (0) Number of backup sets in history: 2; groups (files): 1
+0036.641 (0) Examining (for files) backup set with nonce=24a6d0800007, datestamp=1629764836 (Aug 24 2021 00:27:16)
+0036.641 (0) This backup set is the backup set just made, so will not be deleted.
+0036.643 (0) This backup set is the backup set just made, so will not be deleted.
+0036.643 (0) This backup set is the backup set just made, so will not be deleted.
+0036.643 (0) This backup set is the backup set just made, so will not be deleted.
+0036.643 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.644 (0) Examining (for files) backup set with nonce=33f7a8d51510, datestamp=1629719918 (Aug 23 2021 11:58:38)
+0036.644 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.644 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0036.647 (0) Resume backup (24a6d0800007, 0): finish run
+0036.652 (0) Decremented the semaphore (fd) by 1
+0036.656 (0) Semaphore (fd) unlocked
+0036.659 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0036.665 (0) No email will/can be sent - the user has not configured an email address.
+0036.667 (0) The backup apparently succeeded and is now complete

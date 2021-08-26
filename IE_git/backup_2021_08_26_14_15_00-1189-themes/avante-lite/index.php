@@ -1,0 +1,90 @@
+<?php
+/**
+ * Index Page
+ */
+?>
+<?php get_header(); ?>
+
+<?php { if ( is_front_page() && ! is_home() ) { get_template_part('sections/hero'); } } ?>
+
+<div id="content" class="page-content container my-lg-5 my-sm-3">
+	
+    <div class="row">
+
+		<div class="<?php echo esc_attr( avante_content_class() ); ?>">
+			
+            <div class="my-5">
+				
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			
+			<article id="post-<?php the_ID(); ?>" <?php post_class( 'mb-5' ); ?>>
+			    
+                <?php if(get_the_post_thumbnail()) : ?>
+
+                	<figure class="post-image mb-3">
+
+                		<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('avante-post-thumbnails',array('class'=>'img-fluid')); ?></a>
+
+                	</figure>
+
+                <?php endif; ?>
+                
+                <div class="clearfix"></div>
+
+                <p class="text-uppercase mb-1"><?php the_category(', '); ?></p>
+                
+                <h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+                
+                <p class="meta text-info">
+                    
+                    <?php echo get_avatar( get_the_author_meta( 'ID' ), 28, null, null, array('class'=>'rounded-circle mr-1') ); ?>
+
+                    <?php printf(
+					    esc_html__( '%1$s on %2$s', 'avante-lite' ),
+					    '<a href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a>',
+					    get_the_time( get_option( 'date_format' ) )
+					); ?>
+
+					<span>&bull;</span>
+
+					<?php printf(
+					    _n( '%1$s Comment', '%1$s Comments', get_comments_number(), 'avante-lite' ),
+					    number_format_i18n( get_comments_number() )
+					); ?>
+
+					<?php $post_tags = get_the_tags(); if ( $post_tags ) { echo __('&bull; Tags: ','avante-lite'); foreach( $post_tags as $tag ) { echo '#' . tag_escape( $tag->name ) . ' '; } } ?>
+                
+                </p>
+                
+                <div class="entry text-justify">
+                    
+                    <?php the_excerpt(); ?>
+                
+                </div>
+			    
+                <div class="clearfix"></div>
+			 
+            </article>
+			 
+            <?php endwhile;?>
+			
+            <?php endif; ?>
+			
+			<?php the_posts_pagination( array(
+				'mid_size' => 2,
+				'prev_text' => '<i class="fa fa-chevron-left" aria-hidden="true"></i>',
+				'next_text' => '<i class="fa fa-chevron-right" aria-hidden="true"></i>',
+				'screen_reader_text' => __( '&nbsp;', 'avante-lite' ),
+			) ); ?>
+
+			</div>
+		
+        </div>
+
+		<?php get_sidebar(); ?>
+
+	</div>
+
+</div>
+
+<?php get_footer(); ?>

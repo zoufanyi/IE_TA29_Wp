@@ -1,0 +1,65 @@
+#customize-controls .control-section-avadantaavadanta .accordion-section-title:hover {
+	background-color: #fff;
+}
+
+.control-section-avadanta .accordion-section-title .button {
+	font-weight: 400;
+	width: 90%;
+	background: #007cba;
+	color: #fff;
+	border:0px solid #fff;
+}
+
+.rtl .control-section-avadanta .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+#customize-theme-controls .accordion-section-title:before {
+    font-family: dashicons;
+    content: "\f545";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.control-panel-themes .accordion-section-title:before{
+
+	display: none;
+}
+
+.customizer_slider_upgrade_section,
+.customizer_team_upgrade_section,
+.customizer_slider_upgrade_section,
+.customizer_service_upgrade_section,
+.customizer_portfolio_upgrade_section,
+.customizer_avadantaclients_upgrade_section,
+.customizer_testimonial_upgrade_section
+{
+    font-weight: bold;
+    padding: 15px 65px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    z-index: 2;
+    background: #007cba;
+}
+
+.customizer_slider_upgrade_section a,
+.customizer_team_upgrade_section a,
+.customizer_slider_upgrade_section a,
+.customizer_service_upgrade_section a,
+.customizer_portfolio_upgrade_section a,
+.customizer_avadantaclients_upgrade_section a,
+.customizer_testimonial_upgrade_section a 
+{
+
+	color: #fff;
+	text-decoration: none;
+}

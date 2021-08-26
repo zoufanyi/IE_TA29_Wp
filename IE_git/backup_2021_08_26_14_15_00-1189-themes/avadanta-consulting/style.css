@@ -1,0 +1,205 @@
+/*
+Theme Name: Avadanta Consulting
+Template: avadanta
+Theme URI: 
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com
+Description: Consulting based wp theme. Avadanta consulting high quality creative child wordpress theme. fully customizable child theme of avadanata. Perfect for business corporate. pre-made designed Homepage with 7 inner sections Featured Slider, teams, testimonials, portfolio, services, about sections,  Hero Content, call to action you can easily customize them. You can easily drag and drop the section position. Theme has dark header menu layout with top info bar with social media icons. The theme suitable for saas application website, architecture, interior design, corporate, agency, business, consulting, shop ecommerce, marketing, gym, blog, travel agency, construction,law firm, spa salons, industries, Beauty,  furniture, home decor, photography, insurance, app landing page, it solutions, decoration,  and many other websites compatible.You can change everything like Un limited color options, typography fonts, size etc. You can choose your own layout for your page with sidebar or without sidebar or full page content. You can customize navigation bar as you want like background color and menu color with sticky menu option.HIde show post meta and title for post. Unlimited  services icons. Translation ready theme. Support any type widget on footer and sidebar. You can change the footer widget column layout. Avadanta Consulting is a Pixel perfect and high defination all media screen sizes. Avadanta Theme woocommerce plugin supports you to create an online store with this theme. SEO Friendly and fast loading wordpress theme. Compatible with elementor page builder, gutenberg and so many popular plugins nicely works with avadanta theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/avadanta-consulting/ and theme instructions here at https://www.avadantathemes.com/documentation/avadanta-free-theme/
+Version: 1.0.1
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 7.0
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License: GNU General Public License v2 or later
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+Text Domain: avadanta-consulting
+*/
+
+body{
+
+    font-family: 'Arimo', sans-serif;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.menu-item-has-children>a:after{
+
+    content: "\f068" !important;
+    top: 3px !important;
+}
+
+.logo-wrap{
+
+    margin-top: -15px;
+}
+
+@media (min-width: 992px){
+.avadanta-navigate .nav-menu>.menu-item>a, .avadanta-navigate .nav-menu>.page_item >a{
+
+    color: #fff !important;
+}
+}
+
+@media (min-width: 1280px){
+.is-boxed .header-main {
+    padding: 0px 40px;
+    padding-bottom: 3px;
+}
+}
+
+.banner-s4 .slick-prev, .banner-s4 .slick-next{
+
+    border-radius: 10%;
+}
+
+.menu-btns>li .search {
+    display: none;
+}
+
+.redux-social-media-list li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: auto;
+    list-style: none;
+}
+
+.topbar .container{
+
+	display: flex;
+        max-width: 100%;
+}
+
+.redux-social-media-list.clearfix{
+
+    padding: revert;
+}
+
+.topbar-socials a {
+    color: inherit;
+    padding: 0 12px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    margin-top: 0;
+    transition: .25s;
+    font-size: 14px;
+    height: 40px;
+    transition: .2s ease;
+}
+
+.tb-border-design .topbar-socials a {
+    border-left: 1px solid rgba(132,132,132,.15);
+    width: 48px;
+    text-align: center;
+}
+
+.topbar-right-content {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.topbar-phone, .topbar-email, .topbar-opening-hours {
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    letter-spacing: .01em;
+    font-weight: 500;
+    height: 40px;
+}
+
+.tb-border-design .topbar-phone, 
+.tb-border-design .topbar-email,
+ .tb-border-design .topbar-opening-hours {
+    border-right: 1px solid rgba(132,132,132,.15);
+    margin-right: 15px;
+}
+
+.topbar-contact a,
+.topbar-contact span{
+
+	padding-right: 10px;
+}
+
+.topbar-contact i{
+
+	padding-right: 8px;
+}
+
+.wgs-sidebar{
+
+	background: #eee;
+}
+
+.avadanta-consult{
+
+	padding: 0px 0 50px !important;
+}
+
+.avadantaconslt-readmre{
+
+    padding: 0!important;
+}
+
+.avadantaconslt-readmre a{
+
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    
+}
+
+.wp-caption,.wp-caption-text,.bypostauthor ,
+.alignright ,.alignleft,.aligncenter{
+
+}
+
+@media (min-width: 576px){
+.post-content {
+    padding-top: 7px !important;
+}
+}
+
+.post-content {
+    padding: 35px 0;
+}
+
+.header-s1 .header-main{
+
+    background-color: #1f242c !important;
+}
+
+
+
+@media (max-width: 992px){
+.topbar-right-content {
+
+display: none;
+}
+}
+
+.banner-heading {
+    text-transform: capitalize;
+}
+
+.feature{
+
+    border: 1px solid #141414;
+    padding: 20px;
+    background: #141414;
+
+}
+
+.add-child-header .header-menus{
+
+padding-top: 0px;
+
+}
+
+.add-child-header .header-menus a{
+
+    color: #fff;
+}
