@@ -1,0 +1,440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Barber Lite\n"
+"POT-Creation-Date: 2021-08-16 18:10+0530\n"
+"PO-Revision-Date: 2021-08-16 18:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: Grace Themes <support@gracethemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn....Dont worry... it happens to the "
+"best of us."
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18 content-search.php:28 content-single.php:24
+#: content.php:60 image.php:56 template-full-width.php:23
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-search.php:39 content-single.php:34
+#: image.php:30 image.php:62
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:16 content.php:26
+msgid ", "
+msgstr ""
+
+#: content.php:57
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: customize-pro/class-customize.php:76
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: customize-pro/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: footer.php:46
+msgid "Theme by Grace Themes"
+msgstr ""
+
+#: functions.php:44
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:45
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:59
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:69 functions.php:79 functions.php:89 functions.php:99
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:78
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:88
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:98
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:150
+msgid "Open the main menu"
+msgstr ""
+
+#: functions.php:151
+msgid "Close the main menu"
+msgstr ""
+
+#: functions.php:152
+msgid "expand submenu"
+msgstr ""
+
+#: functions.php:153
+msgid "collapse submenu"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:120
+msgid "Menu"
+msgstr ""
+
+#: image.php:20
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:36
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/about-themes.php:11 inc/about-themes.php:18
+msgid "About Theme Info"
+msgstr ""
+
+#: inc/about-themes.php:21
+msgid ""
+"Barber Lite is an eye-catching, clean, easy-to-install, sophisticated and "
+"fully customizable hair salon WordPress theme. This stunning template is "
+"specially crafted to make a elegant website for your hair salon and beauty "
+"clinic. It is a multi-concept WordPress theme that you can use to create the "
+"exact website for barbers, hairdressers, spas, massage, makeup, beauty "
+"salons, tattoo parlors, stylists, wellness centers and other kinds of "
+"professionals. It helps to advertise your beauty services and hair saloon "
+"related products to a wider range of audiences."
+msgstr ""
+
+#: inc/about-themes.php:23
+msgid "Theme Features"
+msgstr ""
+
+#: inc/about-themes.php:26
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about-themes.php:27
+msgid ""
+"The built-in customizer panel quickly change aspects of the design and "
+"display changes live before saving them."
+msgstr ""
+
+#: inc/about-themes.php:30
+msgid "Responsive Ready"
+msgstr ""
+
+#: inc/about-themes.php:31
+msgid ""
+"The themes layout will automatically adjust and fit on any screen resolution "
+"and looks great on any device. Fully optimized for iPhone and iPad."
+msgstr ""
+
+#: inc/about-themes.php:34
+msgid "Cross Browser Compatible"
+msgstr ""
+
+#: inc/about-themes.php:35
+msgid ""
+"Our themes are tested in all mordern web browsers and compatible with the "
+"latest version including Chrome,Firefox, Safari, Opera, IE11 and above."
+msgstr ""
+
+#: inc/about-themes.php:38
+msgid "E-commerce"
+msgstr ""
+
+#: inc/about-themes.php:39
+msgid ""
+"Fully compatible with WooCommerce plugin. Just install the plugin and turn "
+"your site into a full featured online shop and start selling products."
+msgstr ""
+
+#: inc/about-themes.php:42
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Blog Posts Settings"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Blog Posts Meta Options"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Check to hide post date"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Check to hide post category"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Blog Posts Featured image"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Check to hide blog featured image"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Check to featured image full width"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Blog Posts Read More Button"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Read more button text for blog posts"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Blog Posts Excerpt Options"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Blog Posts Content"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "No Content"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Blog Posts Single"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Check to hide post date from single"
+msgstr ""
+
+#: inc/customizer.php:229
+msgid "Check to hide post category from single"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Sidebar Settings"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Check to hide sidebar from homepage"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Check to hide sidebar from single post"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Site Layout Options"
+msgstr ""
+
+#: inc/customizer.php:291
+msgid "Check to Show Box Layout"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "If you want to show Box layout please check this option."
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer.php:311
+msgid "Header Info"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Enter phone number here"
+msgstr ""
+
+#: inc/customizer.php:335
+msgid "enter email id here."
+msgstr ""
+
+#: inc/customizer.php:349 inc/customizer.php:416
+msgid "Check To show This Section"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid "Header and Footer Social icons"
+msgstr ""
+
+#: inc/customizer.php:357
+msgid "Add social icons link here to display icons in header "
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:379
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:391
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:402
+msgid "Add instagram link here"
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Default image size for slider is 1400 x 825 pixel."
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Select page for carousel 1:"
+msgstr ""
+
+#: inc/customizer.php:449
+msgid "Select page for carousel 2:"
+msgstr ""
+
+#: inc/customizer.php:461
+msgid "Select page for carousel 3:"
+msgstr ""
+
+#: inc/customizer.php:472
+msgid "Slider Description length"
+msgstr ""
+
+#: inc/customizer.php:489
+msgid "enter button name here"
+msgstr ""
+
+#: inc/customizer.php:503 inc/customizer.php:612
+msgid "Check To Show This Section"
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "Four Boxes Section"
+msgstr ""
+
+#: inc/customizer.php:511
+msgid "Select pages from the dropdown for four column section"
+msgstr ""
+
+#: inc/customizer.php:524
+msgid "write services title here"
+msgstr ""
+
+#: inc/customizer.php:580
+msgid "four page box excerpt length"
+msgstr ""
+
+#: inc/customizer.php:597
+msgid "Read more button name here"
+msgstr ""
+
+#: no-results.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Category"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
