@@ -3,3 +3,9 @@ Tobacco Smoking is considered to be one of the most important, preventable cause
 Our website is to help people quit smoking.
 
 We used UpdraftPlus to downlaod the backup files. The backup files include a database, plugins, themes, uploads and others.
+
+Steps to use this backup:
+1. Download the backup files from Github.
+2. Log in WordPress dashboard.
+3. Install and active a plugin named UpdraftPlus.
+4. Use UpdraftPlus to upload and restore the files.
