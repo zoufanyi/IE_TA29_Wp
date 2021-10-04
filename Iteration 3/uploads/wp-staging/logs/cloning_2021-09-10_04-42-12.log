@@ -1,0 +1,569 @@
+[INFO]-[2021/09/10 04:42:12] Cloning: 1631248931956's clone job's data is not in database, generating data
+[INFO]-[2021/09/10 04:42:13] DB Copy: Creating table wpstg3_commentmeta
+[INFO]-[2021/09/10 04:42:13] DB Copy: Table wp_commentmeta contains 4 rows 
+[INFO]-[2021/09/10 04:42:13] DB Copy: wp_commentmeta as wpstg3_commentmeta from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:13] DB Copy: Creating table wpstg3_comments
+[INFO]-[2021/09/10 04:42:13] DB Copy: Table wp_comments contains 3 rows 
+[INFO]-[2021/09/10 04:42:13] DB Copy: wp_comments as wpstg3_comments from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:13] DB Copy: Creating table wpstg3_flipping_cards
+[INFO]-[2021/09/10 04:42:13] DB Copy: Table wp_flipping_cards contains 7 rows 
+[INFO]-[2021/09/10 04:42:13] DB Copy: wp_flipping_cards as wpstg3_flipping_cards from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:14] DB Copy: Creating table wpstg3_flipping_cards_images
+[INFO]-[2021/09/10 04:42:14] DB Copy: Table wp_flipping_cards_images contains 7 rows 
+[INFO]-[2021/09/10 04:42:14] DB Copy: wp_flipping_cards_images as wpstg3_flipping_cards_images from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:14] DB Copy: Creating table wpstg3_links
+[INFO]-[2021/09/10 04:42:14] DB Copy: Table wp_links contains 0 rows 
+[INFO]-[2021/09/10 04:42:14] DB Copy: Creating table wpstg3_mlw_qm_audit_trail
+[INFO]-[2021/09/10 04:42:14] DB Copy: Table wp_mlw_qm_audit_trail contains 5 rows 
+[INFO]-[2021/09/10 04:42:14] DB Copy: wp_mlw_qm_audit_trail as wpstg3_mlw_qm_audit_trail from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:15] DB Copy: Creating table wpstg3_mlw_question_terms
+[INFO]-[2021/09/10 04:42:15] DB Copy: Table wp_mlw_question_terms contains 0 rows 
+[INFO]-[2021/09/10 04:42:15] DB Copy: Creating table wpstg3_mlw_questions
+[INFO]-[2021/09/10 04:42:15] DB Copy: Table wp_mlw_questions contains 6 rows 
+[INFO]-[2021/09/10 04:42:15] DB Copy: wp_mlw_questions as wpstg3_mlw_questions from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:15] DB Copy: Creating table wpstg3_mlw_quiz_theme_settings
+[INFO]-[2021/09/10 04:42:15] DB Copy: Table wp_mlw_quiz_theme_settings contains 0 rows 
+[INFO]-[2021/09/10 04:42:15] DB Copy: Creating table wpstg3_mlw_quizzes
+[INFO]-[2021/09/10 04:42:15] DB Copy: Table wp_mlw_quizzes contains 1 rows 
+[INFO]-[2021/09/10 04:42:15] DB Copy: wp_mlw_quizzes as wpstg3_mlw_quizzes from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:16] DB Copy: Creating table wpstg3_mlw_results
+[INFO]-[2021/09/10 04:42:16] DB Copy: Table wp_mlw_results contains 20 rows 
+[INFO]-[2021/09/10 04:42:16] DB Copy: wp_mlw_results as wpstg3_mlw_results from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:16] DB Copy: Creating table wpstg3_mlw_themes
+[INFO]-[2021/09/10 04:42:16] DB Copy: Table wp_mlw_themes contains 0 rows 
+[INFO]-[2021/09/10 04:42:16] DB Copy: Creating table wpstg3_options
+[INFO]-[2021/09/10 04:42:16] DB Copy: Table wp_options contains 407 rows 
+[INFO]-[2021/09/10 04:42:16] DB Copy: wp_options as wpstg3_options from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:17] DB Copy: Creating table wpstg3_postmeta
+[INFO]-[2021/09/10 04:42:17] DB Copy: Table wp_postmeta contains 7147 rows 
+[INFO]-[2021/09/10 04:42:17] DB Copy: wp_postmeta as wpstg3_postmeta from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:18] DB Copy: Creating table wpstg3_posts
+[INFO]-[2021/09/10 04:42:18] DB Copy: Table wp_posts contains 979 rows 
+[INFO]-[2021/09/10 04:42:18] DB Copy: wp_posts as wpstg3_posts from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:19] DB Copy: Creating table wpstg3_term_relationships
+[INFO]-[2021/09/10 04:42:19] DB Copy: Table wp_term_relationships contains 5 rows 
+[INFO]-[2021/09/10 04:42:19] DB Copy: wp_term_relationships as wpstg3_term_relationships from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:19] DB Copy: Creating table wpstg3_term_taxonomy
+[INFO]-[2021/09/10 04:42:19] DB Copy: Table wp_term_taxonomy contains 5 rows 
+[INFO]-[2021/09/10 04:42:19] DB Copy: wp_term_taxonomy as wpstg3_term_taxonomy from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:19] DB Copy: Creating table wpstg3_termmeta
+[INFO]-[2021/09/10 04:42:19] DB Copy: Table wp_termmeta contains 0 rows 
+[INFO]-[2021/09/10 04:42:19] DB Copy: Creating table wpstg3_terms
+[INFO]-[2021/09/10 04:42:19] DB Copy: Table wp_terms contains 5 rows 
+[INFO]-[2021/09/10 04:42:19] DB Copy: wp_terms as wpstg3_terms from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:20] DB Copy: Creating table wpstg3_usermeta
+[INFO]-[2021/09/10 04:42:20] DB Copy: Table wp_usermeta contains 21 rows 
+[INFO]-[2021/09/10 04:42:20] DB Copy: wp_usermeta as wpstg3_usermeta from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:21] DB Copy: Creating table wpstg3_users
+[INFO]-[2021/09/10 04:42:21] DB Copy: Table wp_users contains 1 rows 
+[INFO]-[2021/09/10 04:42:21] DB Copy: wp_users as wpstg3_users from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:21] DB Copy: Creating table wpstg3_wp_phpmyadmin_extension__errors_log
+[INFO]-[2021/09/10 04:42:21] DB Copy: Table wp_wp_phpmyadmin_extension__errors_log contains 0 rows 
+[INFO]-[2021/09/10 04:42:21] DB Copy: Creating table wpstg3_wpfm_backup
+[INFO]-[2021/09/10 04:42:21] DB Copy: Table wp_wpfm_backup contains 1 rows 
+[INFO]-[2021/09/10 04:42:21] DB Copy: wp_wpfm_backup as wpstg3_wpfm_backup from 0 to 10000 records
+[INFO]-[2021/09/10 04:42:22] DB Search & Replace:  Table wpstg3_commentmeta 0 to 20000 records
+[INFO]-[2021/09/10 04:42:22] DB Search & Replace:  Table wpstg3_comments 0 to 20000 records
+[INFO]-[2021/09/10 04:42:23] DB Search & Replace:  Table wpstg3_flipping_cards 0 to 20000 records
+[INFO]-[2021/09/10 04:42:23] DB Search & Replace:  Table wpstg3_flipping_cards_images 0 to 20000 records
+[INFO]-[2021/09/10 04:42:23] DB Search & Replace:  Table wpstg3_mlw_qm_audit_trail 0 to 20000 records
+[INFO]-[2021/09/10 04:42:24] DB Search & Replace:  Table wpstg3_mlw_questions 0 to 20000 records
+[INFO]-[2021/09/10 04:42:24] DB Search & Replace:  Table wpstg3_mlw_quizzes 0 to 20000 records
+[INFO]-[2021/09/10 04:42:25] DB Search & Replace:  Table wpstg3_mlw_results 0 to 20000 records
+[INFO]-[2021/09/10 04:42:25] DB Search & Replace:  Table wpstg3_options 0 to 20000 records
+[INFO]-[2021/09/10 04:42:26] DB Search & Replace:  Table wpstg3_postmeta 0 to 20000 records
+[INFO]-[2021/09/10 04:42:28] DB Search & Replace:  Table wpstg3_posts 0 to 20000 records
+[INFO]-[2021/09/10 04:42:29] DB Search & Replace:  Table wpstg3_term_relationships 0 to 20000 records
+[INFO]-[2021/09/10 04:42:30] DB Search & Replace:  Table wpstg3_term_taxonomy 0 to 20000 records
+[INFO]-[2021/09/10 04:42:30] DB Search & Replace:  Table wpstg3_terms 0 to 20000 records
+[INFO]-[2021/09/10 04:42:30] DB Search & Replace:  Table wpstg3_usermeta 0 to 20000 records
+[INFO]-[2021/09/10 04:42:31] DB Search & Replace:  Table wpstg3_users 0 to 20000 records
+[INFO]-[2021/09/10 04:42:31] DB Search & Replace:  Table wpstg3_wpfm_backup 0 to 20000 records
+[INFO]-[2021/09/10 04:42:33] Scanning / for its files
+[INFO]-[2021/09/10 04:42:34] Scanning wp-content/plugins and its sub-directories and files
+[INFO]-[2021/09/10 04:42:35] Scanning wp-content/mu-plugins and its sub-directories and files
+[INFO]-[2021/09/10 04:42:35] Scanning wp-content/themes and its sub-directories and files
+[INFO]-[2021/09/10 04:42:35] Scanning wp-content/uploads/ and its sub-directories and files
+[INFO]-[2021/09/10 04:42:35] Scanning wp-content for other directories
+[INFO]-[2021/09/10 04:42:36] Scanning wp-includes for its sub-directories and files
+[INFO]-[2021/09/10 04:42:36] Scanning wp-admin for its sub-directories and files
+[INFO]-[2021/09/10 04:42:37] Copying files...
+[INFO]-[2021/09/10 04:42:37] Total 50 files processed
+[INFO]-[2021/09/10 04:42:37] Total 100 files processed
+[INFO]-[2021/09/10 04:42:38] Total 150 files processed
+[INFO]-[2021/09/10 04:42:38] Total 200 files processed
+[INFO]-[2021/09/10 04:42:38] Total 250 files processed
+[INFO]-[2021/09/10 04:42:38] Total 300 files processed
+[INFO]-[2021/09/10 04:42:39] Total 350 files processed
+[INFO]-[2021/09/10 04:42:39] Total 400 files processed
+[INFO]-[2021/09/10 04:42:39] Total 450 files processed
+[INFO]-[2021/09/10 04:42:40] Total 500 files processed
+[INFO]-[2021/09/10 04:42:40] Total 550 files processed
+[INFO]-[2021/09/10 04:42:40] Total 600 files processed
+[INFO]-[2021/09/10 04:42:41] Total 650 files processed
+[INFO]-[2021/09/10 04:42:41] Total 700 files processed
+[INFO]-[2021/09/10 04:42:41] Total 750 files processed
+[INFO]-[2021/09/10 04:42:42] Total 800 files processed
+[INFO]-[2021/09/10 04:42:42] Total 850 files processed
+[INFO]-[2021/09/10 04:42:42] Total 900 files processed
+[INFO]-[2021/09/10 04:42:43] Total 950 files processed
+[INFO]-[2021/09/10 04:42:43] Total 1000 files processed
+[INFO]-[2021/09/10 04:42:43] Total 1050 files processed
+[INFO]-[2021/09/10 04:42:43] Total 1100 files processed
+[INFO]-[2021/09/10 04:42:44] Total 1150 files processed
+[INFO]-[2021/09/10 04:42:44] Total 1200 files processed
+[INFO]-[2021/09/10 04:42:44] Total 1250 files processed
+[INFO]-[2021/09/10 04:42:45] Total 1300 files processed
+[INFO]-[2021/09/10 04:42:46] Total 1350 files processed
+[INFO]-[2021/09/10 04:42:46] Total 1400 files processed
+[INFO]-[2021/09/10 04:42:46] Total 1450 files processed
+[INFO]-[2021/09/10 04:42:47] Total 1500 files processed
+[INFO]-[2021/09/10 04:42:47] Total 1550 files processed
+[INFO]-[2021/09/10 04:42:47] Total 1600 files processed
+[INFO]-[2021/09/10 04:42:47] Total 1650 files processed
+[INFO]-[2021/09/10 04:42:48] Total 1700 files processed
+[INFO]-[2021/09/10 04:42:48] Total 1750 files processed
+[INFO]-[2021/09/10 04:42:48] Total 1800 files processed
+[INFO]-[2021/09/10 04:42:49] Total 1850 files processed
+[INFO]-[2021/09/10 04:42:49] Total 1900 files processed
+[INFO]-[2021/09/10 04:42:50] Total 1950 files processed
+[INFO]-[2021/09/10 04:42:50] Total 2000 files processed
+[INFO]-[2021/09/10 04:42:50] Total 2050 files processed
+[INFO]-[2021/09/10 04:42:51] Total 2100 files processed
+[INFO]-[2021/09/10 04:42:51] Total 2150 files processed
+[INFO]-[2021/09/10 04:42:51] Total 2200 files processed
+[INFO]-[2021/09/10 04:42:52] Total 2250 files processed
+[INFO]-[2021/09/10 04:42:52] Total 2300 files processed
+[INFO]-[2021/09/10 04:42:52] Total 2350 files processed
+[INFO]-[2021/09/10 04:42:53] Total 2400 files processed
+[INFO]-[2021/09/10 04:42:53] Total 2450 files processed
+[INFO]-[2021/09/10 04:42:53] Total 2500 files processed
+[INFO]-[2021/09/10 04:42:53] Total 2550 files processed
+[INFO]-[2021/09/10 04:42:54] Total 2600 files processed
+[INFO]-[2021/09/10 04:42:54] Total 2650 files processed
+[INFO]-[2021/09/10 04:42:54] Total 2700 files processed
+[INFO]-[2021/09/10 04:42:55] Total 2750 files processed
+[INFO]-[2021/09/10 04:42:55] Total 2800 files processed
+[INFO]-[2021/09/10 04:42:55] Total 2850 files processed
+[INFO]-[2021/09/10 04:42:56] Total 2900 files processed
+[INFO]-[2021/09/10 04:42:56] Total 2950 files processed
+[INFO]-[2021/09/10 04:42:56] Total 3000 files processed
+[INFO]-[2021/09/10 04:42:57] Total 3050 files processed
+[INFO]-[2021/09/10 04:42:57] Total 3100 files processed
+[INFO]-[2021/09/10 04:42:57] Total 3150 files processed
+[INFO]-[2021/09/10 04:42:57] Total 3200 files processed
+[INFO]-[2021/09/10 04:42:58] Total 3250 files processed
+[INFO]-[2021/09/10 04:42:59] Total 3300 files processed
+[INFO]-[2021/09/10 04:42:59] Total 3350 files processed
+[INFO]-[2021/09/10 04:43:00] Total 3400 files processed
+[INFO]-[2021/09/10 04:43:00] Total 3450 files processed
+[INFO]-[2021/09/10 04:43:00] Total 3500 files processed
+[INFO]-[2021/09/10 04:43:01] Total 3550 files processed
+[INFO]-[2021/09/10 04:43:01] Total 3600 files processed
+[INFO]-[2021/09/10 04:43:02] Total 3650 files processed
+[INFO]-[2021/09/10 04:43:02] Total 3700 files processed
+[INFO]-[2021/09/10 04:43:02] Total 3750 files processed
+[INFO]-[2021/09/10 04:43:03] Total 3800 files processed
+[INFO]-[2021/09/10 04:43:03] Total 3850 files processed
+[INFO]-[2021/09/10 04:43:03] Total 3900 files processed
+[INFO]-[2021/09/10 04:43:03] Total 3950 files processed
+[INFO]-[2021/09/10 04:43:04] Total 4000 files processed
+[INFO]-[2021/09/10 04:43:04] Total 4050 files processed
+[INFO]-[2021/09/10 04:43:04] Total 4100 files processed
+[INFO]-[2021/09/10 04:43:05] Total 4150 files processed
+[INFO]-[2021/09/10 04:43:05] Total 4200 files processed
+[INFO]-[2021/09/10 04:43:05] Total 4250 files processed
+[INFO]-[2021/09/10 04:43:06] Total 4300 files processed
+[INFO]-[2021/09/10 04:43:06] Total 4350 files processed
+[INFO]-[2021/09/10 04:43:06] Total 4400 files processed
+[INFO]-[2021/09/10 04:43:07] Total 4450 files processed
+[INFO]-[2021/09/10 04:43:07] Total 4500 files processed
+[INFO]-[2021/09/10 04:43:07] Total 4550 files processed
+[INFO]-[2021/09/10 04:43:07] Total 4600 files processed
+[INFO]-[2021/09/10 04:43:08] Total 4650 files processed
+[INFO]-[2021/09/10 04:43:08] Total 4700 files processed
+[INFO]-[2021/09/10 04:43:08] Total 4750 files processed
+[INFO]-[2021/09/10 04:43:09] Total 4800 files processed
+[INFO]-[2021/09/10 04:43:09] Total 4850 files processed
+[INFO]-[2021/09/10 04:43:09] Total 4900 files processed
+[INFO]-[2021/09/10 04:43:10] Total 4950 files processed
+[INFO]-[2021/09/10 04:43:10] Total 5000 files processed
+[INFO]-[2021/09/10 04:43:10] Total 5050 files processed
+[INFO]-[2021/09/10 04:43:11] Total 5100 files processed
+[INFO]-[2021/09/10 04:43:11] Total 5150 files processed
+[INFO]-[2021/09/10 04:43:11] Total 5200 files processed
+[INFO]-[2021/09/10 04:43:12] Total 5250 files processed
+[INFO]-[2021/09/10 04:43:12] Total 5300 files processed
+[INFO]-[2021/09/10 04:43:12] Total 5350 files processed
+[INFO]-[2021/09/10 04:43:13] Total 5400 files processed
+[INFO]-[2021/09/10 04:43:13] Total 5450 files processed
+[INFO]-[2021/09/10 04:43:13] Total 5500 files processed
+[INFO]-[2021/09/10 04:43:14] Total 5550 files processed
+[INFO]-[2021/09/10 04:43:14] Total 5600 files processed
+[INFO]-[2021/09/10 04:43:15] Total 5650 files processed
+[INFO]-[2021/09/10 04:43:15] Total 5700 files processed
+[INFO]-[2021/09/10 04:43:16] Total 5750 files processed
+[INFO]-[2021/09/10 04:43:16] Total 5800 files processed
+[INFO]-[2021/09/10 04:43:16] Total 5850 files processed
+[INFO]-[2021/09/10 04:43:17] Total 5900 files processed
+[INFO]-[2021/09/10 04:43:17] Total 5950 files processed
+[INFO]-[2021/09/10 04:43:17] Total 6000 files processed
+[INFO]-[2021/09/10 04:43:17] Total 6050 files processed
+[INFO]-[2021/09/10 04:43:18] Total 6100 files processed
+[INFO]-[2021/09/10 04:43:18] Total 6150 files processed
+[INFO]-[2021/09/10 04:43:18] Total 6200 files processed
+[INFO]-[2021/09/10 04:43:19] Total 6250 files processed
+[INFO]-[2021/09/10 04:43:19] Total 6300 files processed
+[INFO]-[2021/09/10 04:43:19] Total 6350 files processed
+[INFO]-[2021/09/10 04:43:20] Total 6400 files processed
+[INFO]-[2021/09/10 04:43:20] Total 6450 files processed
+[INFO]-[2021/09/10 04:43:20] Total 6500 files processed
+[INFO]-[2021/09/10 04:43:20] Total 6550 files processed
+[INFO]-[2021/09/10 04:43:21] Total 6600 files processed
+[INFO]-[2021/09/10 04:43:21] Total 6650 files processed
+[INFO]-[2021/09/10 04:43:21] Total 6700 files processed
+[INFO]-[2021/09/10 04:43:22] Total 6750 files processed
+[INFO]-[2021/09/10 04:43:22] Total 6800 files processed
+[INFO]-[2021/09/10 04:43:22] Total 6850 files processed
+[INFO]-[2021/09/10 04:43:22] Total 6900 files processed
+[INFO]-[2021/09/10 04:43:23] Total 6950 files processed
+[INFO]-[2021/09/10 04:43:24] Total 7000 files processed
+[INFO]-[2021/09/10 04:43:24] Total 7050 files processed
+[INFO]-[2021/09/10 04:43:24] Total 7100 files processed
+[INFO]-[2021/09/10 04:43:24] Total 7150 files processed
+[INFO]-[2021/09/10 04:43:25] Total 7200 files processed
+[INFO]-[2021/09/10 04:43:25] Total 7250 files processed
+[INFO]-[2021/09/10 04:43:25] Total 7300 files processed
+[INFO]-[2021/09/10 04:43:26] Total 7350 files processed
+[INFO]-[2021/09/10 04:43:26] Total 7400 files processed
+[INFO]-[2021/09/10 04:43:26] Total 7450 files processed
+[INFO]-[2021/09/10 04:43:26] Total 7500 files processed
+[INFO]-[2021/09/10 04:43:27] Total 7550 files processed
+[INFO]-[2021/09/10 04:43:27] Total 7600 files processed
+[INFO]-[2021/09/10 04:43:27] Total 7650 files processed
+[INFO]-[2021/09/10 04:43:28] Total 7700 files processed
+[INFO]-[2021/09/10 04:43:28] Total 7750 files processed
+[INFO]-[2021/09/10 04:43:28] Total 7800 files processed
+[INFO]-[2021/09/10 04:43:28] Total 7850 files processed
+[INFO]-[2021/09/10 04:43:29] Total 7900 files processed
+[INFO]-[2021/09/10 04:43:29] Total 7950 files processed
+[INFO]-[2021/09/10 04:43:29] Total 8000 files processed
+[INFO]-[2021/09/10 04:43:30] Total 8050 files processed
+[INFO]-[2021/09/10 04:43:30] Total 8100 files processed
+[INFO]-[2021/09/10 04:43:30] Total 8150 files processed
+[INFO]-[2021/09/10 04:43:30] Total 8200 files processed
+[INFO]-[2021/09/10 04:43:31] Total 8250 files processed
+[INFO]-[2021/09/10 04:43:31] Total 8300 files processed
+[INFO]-[2021/09/10 04:43:32] Total 8350 files processed
+[INFO]-[2021/09/10 04:43:32] Total 8400 files processed
+[INFO]-[2021/09/10 04:43:32] Total 8450 files processed
+[INFO]-[2021/09/10 04:43:32] Total 8500 files processed
+[INFO]-[2021/09/10 04:43:33] Total 8550 files processed
+[INFO]-[2021/09/10 04:43:33] Total 8600 files processed
+[INFO]-[2021/09/10 04:43:33] Total 8650 files processed
+[INFO]-[2021/09/10 04:43:34] Total 8700 files processed
+[INFO]-[2021/09/10 04:43:34] Total 8750 files processed
+[INFO]-[2021/09/10 04:43:35] Total 8800 files processed
+[INFO]-[2021/09/10 04:43:35] Total 8850 files processed
+[INFO]-[2021/09/10 04:43:35] Total 8900 files processed
+[INFO]-[2021/09/10 04:43:36] Total 8950 files processed
+[INFO]-[2021/09/10 04:43:36] Total 9000 files processed
+[INFO]-[2021/09/10 04:43:36] Total 9050 files processed
+[INFO]-[2021/09/10 04:43:37] Total 9100 files processed
+[INFO]-[2021/09/10 04:43:37] Total 9150 files processed
+[INFO]-[2021/09/10 04:43:37] Total 9200 files processed
+[INFO]-[2021/09/10 04:43:38] Total 9250 files processed
+[INFO]-[2021/09/10 04:43:38] Total 9300 files processed
+[INFO]-[2021/09/10 04:43:38] Total 9350 files processed
+[INFO]-[2021/09/10 04:43:39] Total 9400 files processed
+[INFO]-[2021/09/10 04:43:39] Total 9450 files processed
+[INFO]-[2021/09/10 04:43:39] Total 9500 files processed
+[INFO]-[2021/09/10 04:43:39] Total 9550 files processed
+[INFO]-[2021/09/10 04:43:40] Total 9600 files processed
+[INFO]-[2021/09/10 04:43:40] Total 9650 files processed
+[INFO]-[2021/09/10 04:43:40] Total 9700 files processed
+[INFO]-[2021/09/10 04:43:41] Total 9750 files processed
+[INFO]-[2021/09/10 04:43:41] Total 9800 files processed
+[INFO]-[2021/09/10 04:43:41] Total 9850 files processed
+[INFO]-[2021/09/10 04:43:42] Total 9900 files processed
+[INFO]-[2021/09/10 04:43:42] Total 9950 files processed
+[INFO]-[2021/09/10 04:43:42] Total 10000 files processed
+[INFO]-[2021/09/10 04:43:42] Total 10050 files processed
+[INFO]-[2021/09/10 04:43:43] Total 10100 files processed
+[INFO]-[2021/09/10 04:43:43] Total 10150 files processed
+[INFO]-[2021/09/10 04:43:43] Total 10200 files processed
+[INFO]-[2021/09/10 04:43:44] Total 10250 files processed
+[INFO]-[2021/09/10 04:43:44] Total 10300 files processed
+[INFO]-[2021/09/10 04:43:44] Total 10350 files processed
+[INFO]-[2021/09/10 04:43:45] Total 10400 files processed
+[INFO]-[2021/09/10 04:43:45] Total 10450 files processed
+[INFO]-[2021/09/10 04:43:46] Total 10500 files processed
+[INFO]-[2021/09/10 04:43:46] Total 10550 files processed
+[INFO]-[2021/09/10 04:43:46] Total 10600 files processed
+[INFO]-[2021/09/10 04:43:47] Total 10650 files processed
+[INFO]-[2021/09/10 04:43:47] Total 10700 files processed
+[INFO]-[2021/09/10 04:43:47] Total 10750 files processed
+[INFO]-[2021/09/10 04:43:48] Total 10800 files processed
+[INFO]-[2021/09/10 04:43:48] Total 10850 files processed
+[INFO]-[2021/09/10 04:43:48] Total 10900 files processed
+[INFO]-[2021/09/10 04:43:49] Total 10950 files processed
+[INFO]-[2021/09/10 04:43:49] Total 11000 files processed
+[INFO]-[2021/09/10 04:43:49] Total 11050 files processed
+[INFO]-[2021/09/10 04:43:50] Total 11100 files processed
+[INFO]-[2021/09/10 04:43:50] Total 11150 files processed
+[INFO]-[2021/09/10 04:43:50] Total 11200 files processed
+[INFO]-[2021/09/10 04:43:50] Total 11250 files processed
+[INFO]-[2021/09/10 04:43:51] Total 11300 files processed
+[INFO]-[2021/09/10 04:43:51] Total 11350 files processed
+[INFO]-[2021/09/10 04:43:51] Total 11400 files processed
+[INFO]-[2021/09/10 04:43:52] Total 11450 files processed
+[INFO]-[2021/09/10 04:43:52] Total 11500 files processed
+[INFO]-[2021/09/10 04:43:52] Total 11550 files processed
+[INFO]-[2021/09/10 04:43:53] Total 11600 files processed
+[INFO]-[2021/09/10 04:43:53] Total 11650 files processed
+[INFO]-[2021/09/10 04:43:53] Total 11700 files processed
+[INFO]-[2021/09/10 04:43:54] Total 11750 files processed
+[INFO]-[2021/09/10 04:43:54] Total 11800 files processed
+[INFO]-[2021/09/10 04:43:55] Total 11850 files processed
+[INFO]-[2021/09/10 04:43:55] Total 11900 files processed
+[INFO]-[2021/09/10 04:43:55] Total 11950 files processed
+[INFO]-[2021/09/10 04:43:56] Total 12000 files processed
+[INFO]-[2021/09/10 04:43:57] Total 12050 files processed
+[INFO]-[2021/09/10 04:43:57] Total 12100 files processed
+[INFO]-[2021/09/10 04:43:57] Total 12150 files processed
+[INFO]-[2021/09/10 04:43:58] Total 12200 files processed
+[INFO]-[2021/09/10 04:43:58] Total 12250 files processed
+[INFO]-[2021/09/10 04:43:58] Total 12300 files processed
+[INFO]-[2021/09/10 04:43:59] Total 12350 files processed
+[INFO]-[2021/09/10 04:43:59] Total 12400 files processed
+[INFO]-[2021/09/10 04:43:59] Total 12450 files processed
+[INFO]-[2021/09/10 04:44:00] Total 12500 files processed
+[INFO]-[2021/09/10 04:44:00] Total 12550 files processed
+[INFO]-[2021/09/10 04:44:00] Total 12600 files processed
+[INFO]-[2021/09/10 04:44:00] Total 12650 files processed
+[INFO]-[2021/09/10 04:44:01] Total 12700 files processed
+[INFO]-[2021/09/10 04:44:01] Total 12750 files processed
+[INFO]-[2021/09/10 04:44:02] Total 12800 files processed
+[INFO]-[2021/09/10 04:44:02] Total 12850 files processed
+[INFO]-[2021/09/10 04:44:03] Total 12900 files processed
+[INFO]-[2021/09/10 04:44:03] Total 12950 files processed
+[INFO]-[2021/09/10 04:44:03] Total 13000 files processed
+[INFO]-[2021/09/10 04:44:04] Total 13050 files processed
+[INFO]-[2021/09/10 04:44:04] Total 13100 files processed
+[INFO]-[2021/09/10 04:44:04] Total 13150 files processed
+[INFO]-[2021/09/10 04:44:05] Total 13200 files processed
+[INFO]-[2021/09/10 04:44:05] Total 13250 files processed
+[INFO]-[2021/09/10 04:44:05] Total 13300 files processed
+[INFO]-[2021/09/10 04:44:06] Total 13350 files processed
+[INFO]-[2021/09/10 04:44:06] Total 13400 files processed
+[INFO]-[2021/09/10 04:44:06] Total 13450 files processed
+[INFO]-[2021/09/10 04:44:07] Total 13500 files processed
+[INFO]-[2021/09/10 04:44:07] Total 13550 files processed
+[INFO]-[2021/09/10 04:44:07] Total 13600 files processed
+[INFO]-[2021/09/10 04:44:08] Total 13650 files processed
+[INFO]-[2021/09/10 04:44:08] Total 13700 files processed
+[INFO]-[2021/09/10 04:44:08] Total 13750 files processed
+[INFO]-[2021/09/10 04:44:09] Total 13800 files processed
+[INFO]-[2021/09/10 04:44:09] Total 13850 files processed
+[INFO]-[2021/09/10 04:44:09] Total 13900 files processed
+[INFO]-[2021/09/10 04:44:09] Total 13950 files processed
+[INFO]-[2021/09/10 04:44:10] Total 14000 files processed
+[INFO]-[2021/09/10 04:44:10] Total 14050 files processed
+[INFO]-[2021/09/10 04:44:10] Total 14100 files processed
+[INFO]-[2021/09/10 04:44:11] Total 14150 files processed
+[INFO]-[2021/09/10 04:44:11] Total 14200 files processed
+[INFO]-[2021/09/10 04:44:11] Total 14250 files processed
+[INFO]-[2021/09/10 04:44:12] Total 14300 files processed
+[INFO]-[2021/09/10 04:44:12] Total 14350 files processed
+[INFO]-[2021/09/10 04:44:12] Total 14400 files processed
+[INFO]-[2021/09/10 04:44:12] Total 14450 files processed
+[INFO]-[2021/09/10 04:44:13] Total 14500 files processed
+[INFO]-[2021/09/10 04:44:13] Total 14550 files processed
+[INFO]-[2021/09/10 04:44:13] Total 14600 files processed
+[INFO]-[2021/09/10 04:44:14] Total 14650 files processed
+[INFO]-[2021/09/10 04:44:14] Total 14700 files processed
+[INFO]-[2021/09/10 04:44:14] Total 14750 files processed
+[INFO]-[2021/09/10 04:44:15] Total 14800 files processed
+[INFO]-[2021/09/10 04:44:15] Total 14850 files processed
+[INFO]-[2021/09/10 04:44:15] Total 14900 files processed
+[INFO]-[2021/09/10 04:44:16] Total 14950 files processed
+[INFO]-[2021/09/10 04:44:16] Total 15000 files processed
+[INFO]-[2021/09/10 04:44:16] Total 15050 files processed
+[INFO]-[2021/09/10 04:44:16] Total 15100 files processed
+[INFO]-[2021/09/10 04:44:17] Total 15150 files processed
+[INFO]-[2021/09/10 04:44:17] Total 15200 files processed
+[INFO]-[2021/09/10 04:44:17] Total 15250 files processed
+[INFO]-[2021/09/10 04:44:18] Total 15300 files processed
+[INFO]-[2021/09/10 04:44:18] Total 15350 files processed
+[INFO]-[2021/09/10 04:44:18] Total 15400 files processed
+[INFO]-[2021/09/10 04:44:19] Total 15450 files processed
+[INFO]-[2021/09/10 04:44:20] Total 15500 files processed
+[INFO]-[2021/09/10 04:44:20] Total 15550 files processed
+[INFO]-[2021/09/10 04:44:21] Total 15600 files processed
+[INFO]-[2021/09/10 04:44:22] Total 15650 files processed
+[INFO]-[2021/09/10 04:44:22] Total 15700 files processed
+[INFO]-[2021/09/10 04:44:22] Total 15750 files processed
+[INFO]-[2021/09/10 04:44:23] Total 15800 files processed
+[INFO]-[2021/09/10 04:44:23] Total 15850 files processed
+[INFO]-[2021/09/10 04:44:23] Total 15900 files processed
+[INFO]-[2021/09/10 04:44:24] Total 15950 files processed
+[INFO]-[2021/09/10 04:44:24] Total 16000 files processed
+[INFO]-[2021/09/10 04:44:24] Total 16050 files processed
+[INFO]-[2021/09/10 04:44:25] Total 16100 files processed
+[INFO]-[2021/09/10 04:44:25] Total 16150 files processed
+[INFO]-[2021/09/10 04:44:25] Total 16200 files processed
+[INFO]-[2021/09/10 04:44:26] Total 16250 files processed
+[INFO]-[2021/09/10 04:44:26] Total 16300 files processed
+[INFO]-[2021/09/10 04:44:26] Total 16350 files processed
+[INFO]-[2021/09/10 04:44:26] Total 16400 files processed
+[INFO]-[2021/09/10 04:44:27] Total 16450 files processed
+[INFO]-[2021/09/10 04:44:27] Total 16500 files processed
+[INFO]-[2021/09/10 04:44:27] Total 16550 files processed
+[INFO]-[2021/09/10 04:44:28] Total 16600 files processed
+[INFO]-[2021/09/10 04:44:28] Total 16650 files processed
+[INFO]-[2021/09/10 04:44:28] Total 16700 files processed
+[INFO]-[2021/09/10 04:44:29] Total 16750 files processed
+[INFO]-[2021/09/10 04:44:29] Total 16800 files processed
+[INFO]-[2021/09/10 04:44:29] Total 16850 files processed
+[INFO]-[2021/09/10 04:44:30] Total 16900 files processed
+[INFO]-[2021/09/10 04:44:30] Total 16950 files processed
+[INFO]-[2021/09/10 04:44:30] Total 17000 files processed
+[INFO]-[2021/09/10 04:44:30] Total 17050 files processed
+[INFO]-[2021/09/10 04:44:31] Total 17100 files processed
+[INFO]-[2021/09/10 04:44:31] Total 17150 files processed
+[INFO]-[2021/09/10 04:44:32] Total 17200 files processed
+[INFO]-[2021/09/10 04:44:32] Total 17250 files processed
+[INFO]-[2021/09/10 04:44:32] Total 17300 files processed
+[INFO]-[2021/09/10 04:44:33] Total 17350 files processed
+[INFO]-[2021/09/10 04:44:33] Total 17400 files processed
+[INFO]-[2021/09/10 04:44:33] Total 17450 files processed
+[INFO]-[2021/09/10 04:44:34] Total 17500 files processed
+[INFO]-[2021/09/10 04:44:34] Total 17550 files processed
+[INFO]-[2021/09/10 04:44:34] Total 17600 files processed
+[INFO]-[2021/09/10 04:44:35] Total 17650 files processed
+[INFO]-[2021/09/10 04:44:35] Total 17700 files processed
+[INFO]-[2021/09/10 04:44:35] Total 17750 files processed
+[INFO]-[2021/09/10 04:44:35] Total 17800 files processed
+[INFO]-[2021/09/10 04:44:36] Total 17850 files processed
+[INFO]-[2021/09/10 04:44:36] Total 17900 files processed
+[INFO]-[2021/09/10 04:44:36] Total 17950 files processed
+[INFO]-[2021/09/10 04:44:37] Total 18000 files processed
+[INFO]-[2021/09/10 04:44:37] Total 18050 files processed
+[INFO]-[2021/09/10 04:44:37] Total 18100 files processed
+[INFO]-[2021/09/10 04:44:39] Total 18150 files processed
+[INFO]-[2021/09/10 04:44:39] Total 18200 files processed
+[INFO]-[2021/09/10 04:44:39] Total 18250 files processed
+[INFO]-[2021/09/10 04:44:40] Total 18300 files processed
+[INFO]-[2021/09/10 04:44:40] Total 18350 files processed
+[INFO]-[2021/09/10 04:44:40] Total 18400 files processed
+[INFO]-[2021/09/10 04:44:40] Total 18450 files processed
+[INFO]-[2021/09/10 04:44:41] Total 18500 files processed
+[INFO]-[2021/09/10 04:44:41] Total 18550 files processed
+[INFO]-[2021/09/10 04:44:41] Total 18600 files processed
+[INFO]-[2021/09/10 04:44:42] Total 18650 files processed
+[INFO]-[2021/09/10 04:44:42] Total 18700 files processed
+[INFO]-[2021/09/10 04:44:42] Total 18750 files processed
+[INFO]-[2021/09/10 04:44:43] Total 18800 files processed
+[INFO]-[2021/09/10 04:44:43] Total 18850 files processed
+[INFO]-[2021/09/10 04:44:43] Total 18900 files processed
+[INFO]-[2021/09/10 04:44:44] Total 18950 files processed
+[INFO]-[2021/09/10 04:44:44] Total 19000 files processed
+[INFO]-[2021/09/10 04:44:44] Total 19050 files processed
+[INFO]-[2021/09/10 04:44:45] Total 19100 files processed
+[INFO]-[2021/09/10 04:44:45] Total 19150 files processed
+[INFO]-[2021/09/10 04:44:46] Total 19200 files processed
+[INFO]-[2021/09/10 04:44:46] Total 19250 files processed
+[INFO]-[2021/09/10 04:44:46] Total 19300 files processed
+[INFO]-[2021/09/10 04:44:47] Total 19350 files processed
+[INFO]-[2021/09/10 04:44:47] Total 19400 files processed
+[INFO]-[2021/09/10 04:44:47] Total 19450 files processed
+[INFO]-[2021/09/10 04:44:48] Total 19500 files processed
+[INFO]-[2021/09/10 04:44:48] Total 19550 files processed
+[INFO]-[2021/09/10 04:44:48] Total 19600 files processed
+[INFO]-[2021/09/10 04:44:49] Total 19650 files processed
+[INFO]-[2021/09/10 04:44:49] Total 19700 files processed
+[INFO]-[2021/09/10 04:44:50] Total 19750 files processed
+[INFO]-[2021/09/10 04:44:50] Total 19800 files processed
+[INFO]-[2021/09/10 04:44:50] Total 19850 files processed
+[INFO]-[2021/09/10 04:44:51] Total 19900 files processed
+[INFO]-[2021/09/10 04:44:51] Total 19950 files processed
+[INFO]-[2021/09/10 04:44:51] Total 20000 files processed
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/uploads/wp-file-manager-pro/fm_backup/backup_2021_08_26_14_15_00-1189-plugins.zip
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/uploads/wp-file-manager-pro/fm_backup/backup_2021_08_26_14_15_00-1189-themes.zip
+[INFO]-[2021/09/10 04:44:52] Total 20050 files processed
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/uploads/wp-file-manager-pro/fm_backup/backup_2021_08_26_14_15_00-1189-uploads.zip
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/updraft/backup_2021-09-09-0949_Quit_Smoking_ec0b7afbe903-themes.zip
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/updraft/backup_2021-09-09-0949_Quit_Smoking_ec0b7afbe903-uploads.zip
+[INFO]-[2021/09/10 04:44:52] Skipping big file: /opt/bitnami/wordpress/wp-content/updraft/backup_2021-09-09-0949_Quit_Smoking_ec0b7afbe903-plugins.zip
+[INFO]-[2021/09/10 04:44:52] Total 20100 files processed
+[INFO]-[2021/09/10 04:44:52] Total 20150 files processed
+[INFO]-[2021/09/10 04:44:53] Total 20200 files processed
+[INFO]-[2021/09/10 04:44:53] Total 20250 files processed
+[INFO]-[2021/09/10 04:44:53] Total 20300 files processed
+[INFO]-[2021/09/10 04:44:54] Total 20350 files processed
+[INFO]-[2021/09/10 04:44:54] Total 20400 files processed
+[INFO]-[2021/09/10 04:44:54] Total 20450 files processed
+[INFO]-[2021/09/10 04:44:55] Total 20500 files processed
+[INFO]-[2021/09/10 04:44:55] Total 20550 files processed
+[INFO]-[2021/09/10 04:44:56] Total 20600 files processed
+[INFO]-[2021/09/10 04:44:56] Total 20650 files processed
+[INFO]-[2021/09/10 04:44:56] Total 20700 files processed
+[INFO]-[2021/09/10 04:44:57] Total 20750 files processed
+[INFO]-[2021/09/10 04:44:57] Total 20800 files processed
+[INFO]-[2021/09/10 04:44:57] Total 20850 files processed
+[INFO]-[2021/09/10 04:44:58] Total 20900 files processed
+[INFO]-[2021/09/10 04:44:58] Total 20950 files processed
+[INFO]-[2021/09/10 04:44:58] Total 21000 files processed
+[INFO]-[2021/09/10 04:44:58] Total 21050 files processed
+[INFO]-[2021/09/10 04:44:59] Total 21100 files processed
+[INFO]-[2021/09/10 04:44:59] Total 21150 files processed
+[INFO]-[2021/09/10 04:44:59] Total 21200 files processed
+[INFO]-[2021/09/10 04:45:00] Total 21250 files processed
+[INFO]-[2021/09/10 04:45:00] Total 21300 files processed
+[INFO]-[2021/09/10 04:45:00] Total 21350 files processed
+[INFO]-[2021/09/10 04:45:01] Total 21400 files processed
+[INFO]-[2021/09/10 04:45:01] Total 21450 files processed
+[INFO]-[2021/09/10 04:45:01] Total 21500 files processed
+[INFO]-[2021/09/10 04:45:02] Total 21550 files processed
+[INFO]-[2021/09/10 04:45:02] Total 21600 files processed
+[INFO]-[2021/09/10 04:45:02] Total 21650 files processed
+[INFO]-[2021/09/10 04:45:03] Total 21700 files processed
+[INFO]-[2021/09/10 04:45:03] Total 21750 files processed
+[INFO]-[2021/09/10 04:45:03] Total 21800 files processed
+[INFO]-[2021/09/10 04:45:04] Total 21850 files processed
+[INFO]-[2021/09/10 04:45:04] Total 21900 files processed
+[INFO]-[2021/09/10 04:45:04] Total 21950 files processed
+[INFO]-[2021/09/10 04:45:05] Total 22000 files processed
+[INFO]-[2021/09/10 04:45:05] Total 22050 files processed
+[INFO]-[2021/09/10 04:45:06] Total 22100 files processed
+[INFO]-[2021/09/10 04:45:07] Total 22150 files processed
+[INFO]-[2021/09/10 04:45:07] Total 22200 files processed
+[INFO]-[2021/09/10 04:45:07] Total 22250 files processed
+[INFO]-[2021/09/10 04:45:08] Total 22300 files processed
+[WARNING]-[2021/09/10 04:45:08] File doesn't exist /opt/bitnami/wordpress/
+[INFO]-[2021/09/10 04:45:08] Skipped symlinking Wp Uploads Folder
+[INFO]-[2021/09/10 04:45:08] Copying files finished
+[INFO]-[2021/09/10 04:45:09] DB Data Step0: Copy wp-config.php file
+[INFO]-[2021/09/10 04:45:09] DB Data Step0: Can not find /opt/bitnami/wordpress/iteration2/wp-config.php
+[INFO]-[2021/09/10 04:45:09] DB Data Step0: Can not find /opt/bitnami/wp-config.php
+[INFO]-[2021/09/10 04:45:09] DB Data Step0: Copy default wp-config.php file from source /bitnami/wordpress/wp-content/plugins/wp-staging/Backend/helpers/wp-config.php to /opt/bitnami/wordpress/iteration2/wp-config.php
+[INFO]-[2021/09/10 04:45:09] DB Data Step1: Updating siteurl and homeurl in wpstg3_options to https://quitsmoking.click/iteration2
+[INFO]-[2021/09/10 04:45:09] DB Data Step2: Updating wpstg3_options 
+[INFO]-[2021/09/10 04:45:10] DB Data Step3: Updating db prefix in wpstg3_usermeta.
+[INFO]-[2021/09/10 04:45:10] DB Data Step4: Updating table_prefix in /opt/bitnami/wordpress/iteration2/wp-config.php to wpstg3_
+[INFO]-[2021/09/10 04:45:10] DB Data Step5: WP installation is not in a subdirectory! Skipping this step
+[INFO]-[2021/09/10 04:45:11] DB Data Step6: Updating db prefix in wpstg3_options.
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Updating constants in wp-config.php
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:UPLOADS
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_PLUGIN_DIR
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_LANG_DIR
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_HOME
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_SITEURL
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_CACHE
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Added:WP_ENVIRONMENT_TYPE
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Skipping: WP_ALLOW_MULTISITE not defined in wp-config.php.
+[INFO]-[2021/09/10 04:45:11] DB Data Step7: Skipping: MULTISITE not defined in wp-config.php.
+[INFO]-[2021/09/10 04:45:12] Finish: Deleting clone job's cache files...
+[INFO]-[2021/09/10 04:45:12] Finish: Clone job's cache files have been deleted!
+[INFO]-[2021/09/10 04:45:12] Finish: Verifying existing clones...
+[INFO]-[2021/09/10 04:45:12] Finish: The job finished!

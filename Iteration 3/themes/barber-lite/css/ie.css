@@ -1,0 +1,11 @@
+/*
+Theme Name: barber-lite
+Description: Global Styles for older IE versions (previous to IE10).
+*/
+
+.header:before, .header:after, .footer:before, .footer:after {	content: "";display: table;}
+.header:after, .footer:after {clear: both;}
+.rtl .site-branding, .rtl .site-info {float: right;}
+.rtl .site-sitenav, .rtl .SiteFooter-BL .social-navigation {float: left;}
+.rtl .SiteFooter-BL .social-navigation {margin-right: 7px;margin-left: 0;	}
+

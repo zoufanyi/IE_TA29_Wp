@@ -1,0 +1,155 @@
+
+.banner-s4 .slick-prev, .banner-s4 .slick-next {
+
+    color: #fff !important;
+
+}
+
+
+.main-top-slide .banner-content{
+
+    text-align: center;
+}
+
+.feature {
+    display: block;
+}
+
+
+@media (min-width: 1200px){
+.feature-content-s4 {
+    margin-left: 0px;
+    display: block;
+    padding-bottom: 20px;
+}
+}
+
+
+.project-item {
+    margin: 7px;
+}
+
+.team-single {
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 25%);
+    background: #fbfbfb;
+}
+
+@media (min-width: 768px){
+.team-content {
+    padding: 15px 0 0;
+}
+}
+
+@media (min-width: 992px){
+.tes-content.tes-content-s2.tes-bg {
+    background: #141414 !important;
+}
+
+}
+
+@media screen and (min-width: 993px){
+.avadanta-navigate .nav-menu>.menu-item>a {
+    color: #fff !important;
+}
+}
+
+@media (min-width: 1280px){
+.is-boxed .header-main {
+    padding: 10px 40px;
+}
+}
+
+.banner.brdcrmbs .header-bennar-right ul {
+    padding-top: 0px !important;
+}
+
+.section-head .heading-xs {
+    margin-bottom: 13px;
+    border: 1px solid #000;
+    padding: 11px;
+}
+
+.section-head .heading-xs {
+    margin-bottom: 13px;
+    padding: 11px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgb(123 123 123) 3px 3px 6px 0px inset,
+     rgb(127 122 122 / 50%) -3px -3px 6px 1px inset;
+
+}
+
+.back-to-top {
+    border-radius: 50% !important;
+    box-shadow: rgb(0 0 0 / 42%) 0px 0px 30px 0px !important;
+}
+
+.section-x.home-blog .post-alt {
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 8px !important;
+}
+
+.section-x .post-alt .post-content-s2{
+
+    padding-top: 20px !important;
+}
+
+.post-title a{
+
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px){
+.avadanta-navigate .menu-toggle {
+    color: #fff !important;
+}
+}
+
+
+.avata-center,
+.avata-center-brd{
+
+    text-align: center !important;
+}
+
+.banner-content{
+
+        padding-top: 0;
+     padding-bottom: 0;
+}
+
+.banner-heading{
+
+    margin-top: 0;
+}
+
+
+@media (min-width: 992px){
+.menu-item>a {
+    text-transform: capitalize;
+}
+}
+
+.sidebar-widget h2{
+
+font-size: 18px !important;
+text-transform: capitalize !important;
+letter-spacing: 0 !important;
+    padding-bottom: 10px !important;
+    border-bottom: 2px solid #fff;
+
+}
+
+.error-44::before {
+    content: '';
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.banner-s4 .slick-prev, .banner-s4 .slick-next{
+
+    background-color: transparent !important;
+    opacity: 1;
+}

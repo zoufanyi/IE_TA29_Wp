@@ -1,0 +1,245 @@
+.wp-mapbox-gl-js-marker {
+  width : 30px;
+  height : 30px;
+  font-size: 30px;
+}
+
+.mapboxgl-ctrl-top-left > .mapboxgl-ctrl-geocoder {
+  font: 15px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: white;
+  width: 33.3333%;
+  min-width: 240px;
+  max-width: 360px;
+  z-index: 1;
+  border-radius: 3px;
+  /* margin-left:0px; */
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+#wp-mapbox-gl-js-autocomplete .mapboxgl-ctrl-geocoder {
+  margin-left:0px;
+  min-width: 100%;
+}
+
+.directions-icon-reverse {
+  display: none !important;
+}
+.mapboxgl-ctrl-geocoder .geocoder-icon-close {
+  display: none !important;
+}
+
+/* edit panel */
+.wp-mapbox-gl-js-edit-panel {
+  display:flex;
+}
+.wp-mapbox-gl-js-tabs-left {
+  width: 20%;
+}
+.wp-mapbox-gl-js-tabs-left ul li {
+  height: 20px;
+  margin: 0;
+  padding: 10px 10px;
+  background: #f1f1f1;
+  border-bottom: thin dotted #f9f9f9;
+  font-size: 15px;
+  transition: 0.5;
+}
+.wp-mapbox-gl-js-tabs-left ul li.wp-mapbox-gl-js-active {
+  background: #ccc;
+}
+.wp-mapbox-gl-js-tabs-left ul li:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+.wp-mapbox-gl-js-tabs-right {
+  display:flex;
+  width: 80%;
+  padding: 10px;
+}
+.wp-mapbox-gl-js-geometry-options {
+  width: 100%;
+}
+.wp-mapbox-gl-js-geometry-options .wp-mapbox-gl-js-header {
+  padding-top:0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.wp-mapbox-gl-js-geometry-options .autocomplete {
+  float: right;
+  width: 240px;
+  border: thin #eee solid;
+}
+.wp-mapbox-gl-js-geometry-options .custom-option {
+  text-transform: capitalize;
+}
+
+.wp-mapbox-gl-js-geometry-options .custom-option .map-icon {
+  float:right;
+  height: 20px;
+  width: auto;
+}
+.wp-mapbox-gl-js-geometry-options .custom-option .map-icon {
+  float:right;
+  height: 20px;
+  width: auto;
+}
+.wp-mapbox-gl-js-geometry-options .custom-option .map-icon img {
+  height: 100%;
+  margin-right: 10px;
+}
+.wp-mapbox-gl-js-geometry-options .Select {
+  width:50%;
+}
+.wp-mapbox-gl-js-geometry-options .wp-mapbox-gl-js-color-picker {
+  width: 30px;
+  height: 33px;
+}
+.wp-mapbox-gl-js-geometry-options .Select-menu-outer {
+  top: auto;
+  bottom: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.wp-mapbox-gl-js-geometry-options .Select-option:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.wp-mapbox-gl-js-geometry-options .Select-option:last-child {
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.wp-mapbox-gl-js-geometry-options .Select.is-open > .Select-control {
+  border-top-right-radius: unset;
+  border-top-left-radius: unset;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* entry menu */
+.wp-mapbox-gl-js-entry-overlay {
+  position: absolute;
+  background: rgba(255,255,255,0.6);
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+.wp-mapbox-gl-js-entry-overlay-flex {
+  margin-top: 50px;
+  width: 60%;
+  display:inline-flex;
+}
+.wp-mapbox-gl-js-entry-overlay h2 {
+  position: absolute;
+  text-align:left;
+  margin:5px;
+  padding:5px;
+  background:rgba(255,255,255,1);
+  border-radius:5px;
+}
+.wp-mapbox-gl-js-entry-panel {
+  text-align: center;
+  width: 300px;
+  margin: 5px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 5px;
+  border: thin #eee solid;
+  padding: 10px;
+  /* height: 100px; */
+  box-shadow: 1px 1px 1px gray;
+  transition: 0.5;
+}
+.wp-mapbox-gl-js-entry-panel:hover {
+  border: thin #333 solid;
+  cursor: pointer;
+}
+.wp-mapbox-gl-js-entry-panel .input-types {
+  text-align: left;
+}
+.wp-mapbox-gl-js-entry-panel .input-types span {
+  margin-left: 20px;
+  font-size:10px;
+  color: red;
+}
+.wp-mapbox-gl-js-entry-panel i {
+  font-size: 50px;
+  display:block;
+}
+.wp-mapbox-gl-js-create-map {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wp-mapbox-gl-js-custom-draw-controls {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  height: 31px;
+  bottom: 0;
+  margin-bottom: 15px;
+  width: 90px;
+  margin-left: -60px;
+  margin-top: 340px;
+}
+.wp-mapbox-gl-js-custom-draw-controls .mapbox-gl-draw_ctrl-draw-btn {
+  display: inline-block;
+}
+.wp-mapbox-gl-js-restart-button {
+  position: absolute;
+  text-align:left;
+  padding: 5px;
+  margin-top:5px;
+  font-size:12px;
+  font-weight:normal;
+}
+
+
+.wp-mapbox-gl-js-modal-background {
+  position: absolute;
+  width: 97%;
+  border-radius: 0px;
+  z-index: 10000;
+}
+.wp-mapbox-gl-js-modal-content {
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+}
+.wp-mapbox-gl-js-modal-content h3 {
+  text-align: center;
+  color: white;
+}
+.wp_mapbox_gl_js_editor_content_container {
+  margin-top: -35px;
+}
+.wp-mapbox-gl-js-modal-buttons {
+  /* margin-top: 15px; */
+  text-align: center;
+}
+.wp-mapbox-gl-js-modal-buttons .button {
+  margin-top: 5px;
+}
+
+
+.wp_mapbox_gl_js_marker-tiles {
+  display: flex;
+}
+.wp_mapbox_gl_js_marker-tiles .wp_mapbox_gl_js_marker-tile {width: 50%;
+  /* height: 35px; */
+  font-size: 12px;
+  /* padding-top: 10px; */
+  padding: 3px 10px;
+  /* text-align: center; */
+  border: thin solid #eee;
+  box-shadow: 1px 1px 1px grey;
+  margin: 0px 5px 5px 0px;
+}
+.wp_mapbox_gl_js_marker-tiles .wp_mapbox_gl_js_marker-tile:hover {
+  cursor: pointer;
+  background: #eee;
+}
+.wp_mapbox_gl_js_marker-tile.selected {
+  background: #eee;
+}

@@ -1,0 +1,95 @@
+#sub-accordion-panel-avadanta_homepage_settings .control-section .accordion-section-title:before,
+.customize-pane-parent .control-section .accordion-section-title:before{
+    font-family: dashicons;
+    content: "\f545";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#sub-accordion-panel-avadanta_homepage_settings .control-section .accordion-section-title:before {
+    content: "\f545";
+}
+
+#accordion-section-avadantadoc .accordion-section-title:before {
+    content: "\f105";
+}
+
+#accordion-panel-avadanta_general_settings .accordion-section-title:before{
+    content: "\f111";
+}
+
+#accordion-section-avadanta_banner_slider .accordion-section-title:before{
+    content: "\f161";
+}
+
+#accordion-panel-avadanta_homepage_settings .accordion-section-title:before{
+    content: "\f102";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before{
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-section-custom_css .accordion-section-title:before{
+    content: "\f499";
+}
+
+
+
+#customize-control-avadanta_pro_theme_features .description ul{
+  font-style: normal;
+  font-size: 14px;
+}
+
+#customize-control-avadanta_pro_theme_features .description ul li{
+  background: #0073aa;
+  padding: 8px;
+  color: #FFF !important;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+/**
+ * Section Re Order/Sortable
+*/
+#tm-sections-reorder li {
+    border: 1px solid #dfdfdf;
+    cursor: move !important;
+    font-weight: bold;
+    padding: 0 10px !important;
+    height: 40px;
+    line-height: 40px !important;
+    background-color: #f1f1f1;
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: linear-gradient(top, #f9f9f9, #ececec);
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+    text-align: center;
+    color: #696969;
+}
+
+#accordion-section-avadanta_homepage_section_reorder h3.accordion-section-title,
+#accordion-section-avadanta_homepage_section_reorder h3.accordion-section-title:hover,
+#accordion-panel-avadanta_homepage_settings h3.accordion-section-title,
+#accordion-panel-avadanta_homepage_settings h3.accordion-section-title:hover{
+    color: #0073aa;
+}
